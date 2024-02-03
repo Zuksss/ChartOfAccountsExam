@@ -30,7 +30,7 @@
                         <form method="POST" action="{{ route('chart-of-accounts.destroy', $account->id) }}" method="post" style="display: inline;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-dark" onclick="return confirm('Are you sure you want to delete this course?')">
+                            <button type="submit" class="btn btn-dark" onclick="return confirm('Are you sure you want to delete this Account?')">
                                 <i class="fas fa-trash"></i>
                             </button>
                         </form>
